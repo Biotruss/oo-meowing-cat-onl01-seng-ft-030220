@@ -4,6 +4,9 @@ class Cat
   def intialize(cat)
     @name = cat
   end
+  def name
+    @name = name
+  end
   def meow
     puts "meow!"
   end
