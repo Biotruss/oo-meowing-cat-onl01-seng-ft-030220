@@ -2,7 +2,10 @@
 class Cat 
   attr_accessor :cat
   def intialize(cat)
-    cat
+    @name = cat
+  end
+  def meow
+    puts "meow!"
   end
   
 end
